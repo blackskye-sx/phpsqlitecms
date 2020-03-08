@@ -96,7 +96,8 @@ function move_down($item, $section, $table)
 
 
 
- function token_pass(){
+ function token_pass()
+ 	{
 	   $token_pass=true;
 	   if(!isset($_REQUEST['token_id'])) $token_pass=false;
 	      else
