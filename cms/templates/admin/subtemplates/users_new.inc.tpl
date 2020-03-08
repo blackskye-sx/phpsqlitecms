@@ -9,6 +9,7 @@
 <div>
     <input type="hidden" name="mode" value="users"/>
     <input type="hidden" name="new_user_submitted" value="true"/>
+    <input type="hidden" name="token_id" value="<?php echo hash("sha512",session_id().TOKEN_SALT); ?>" />
 
     <div class="form-group">
         <label for="name" class="col-lg-2 control-label"><?php echo $lang['user_name_m']; ?></label>
