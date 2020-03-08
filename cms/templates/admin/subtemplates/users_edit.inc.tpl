@@ -24,6 +24,7 @@
             <input type="hidden" name="mode" value="users"/>
             <input type="hidden" name="edit_user_submitted" value="true"/>
             <?php if ($user_type == 1): ?>
+                <input type="hidden" name="token_id" value="<?php echo hash("sha512",session_id().TOKEN_SALT); ?>" />            
                 <input type="hidden" name="id" value="<?php echo $userdata['id']; ?>"/>
             <?php endif; ?>
 
