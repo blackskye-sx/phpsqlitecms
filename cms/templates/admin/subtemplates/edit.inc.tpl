@@ -7,6 +7,7 @@
     <form id="content-form" action="index.php" method="post" class="form-horizontal">
     <div>
     <input type="hidden" name="mode" value="edit"/>
+        <input type="hidden" name="token_id" value="<?php echo hash("sha512",session_id().TOKEN_SALT); ?>" />
     <?php if (isset($page_data['id'])): ?>
         <input type="hidden" name="id" value="<?php echo $page_data['id']; ?>"/>
     <?php endif; ?>
