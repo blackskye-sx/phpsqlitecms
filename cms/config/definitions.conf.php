@@ -17,4 +17,7 @@ define('IMAGE_IDENTIFIER', 'photo');
 define('CATEGORY_IDENTIFIER', 'category:');
 define('AMPERSAND_REPLACEMENT', ':AMP:');
 define('SMILIES_DIR', 'static/media/smilies/');
+
+define('TOKEN_SALT', 'tokensalt');
+
 ?>
