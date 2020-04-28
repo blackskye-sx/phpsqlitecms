@@ -1,0 +1,6 @@
+template is the top level format. 
+It is used to determine HTML document vs sitemp.xml vs rss feed, etc
+default.tpl is HTML document
+plain.tpl is a blank document
+subtemplates are templates for the page_types
+they are currently used in default.tpl between sidebar 1 and sidebar 2
