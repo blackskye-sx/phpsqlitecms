@@ -61,6 +61,10 @@
                             <?php endif; ?>
                         </ul>
                     </li>
+                        <li class="nav navbar-text">
+                            <span class="glyphicon glyphicon-signal"></span>
+                                            <?php echo $_SERVER['REMOTE_ADDR'] ; ?>
+                        </li>                    
                 </ul>
             <?php endif; ?>
             <?php if ($admin): ?>
