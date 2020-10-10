@@ -69,7 +69,7 @@
 
             </div>
 
-            <?php if (($sidebar_2) || ($admin) ): ?>
+            <?php if (($sidebar_2) && ($admin) ): ?>
                 <div class="col-md-3 sidebar">
                     <?php echo $sidebar_2; ?>
                 </div>
