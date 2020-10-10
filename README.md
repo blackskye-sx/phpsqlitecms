@@ -1,3 +1,12 @@
+Fork Notes
+----------
+
+This fork has several changes to it. 
+* added a token to the login during edits
+* added the REMOTE_HOST IP address to the admin template
+* created a new template to make SIDEBAR2 secret
+
+
 phpSQLiteCMS
 ============
 
