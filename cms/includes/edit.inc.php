@@ -127,7 +127,7 @@ if(isset($_SESSION[$settings['session_prefix'].'user_id']))
     $page_data['last_modified'] = date("Y-m-d H:i:s");
     $page_data['display_time'] = 0;
     $page_data['include_page'] = 0;
-    $page_data['include_order'] = 0;
+    $page_data['include_order'] = 1000;   // updated default value to 1000 in order to move pages before EVERYTHING
     $page_data['include_rss'] = 0;
     $page_data['include_sitemap'] = 0;
     $page_data['include_news'] = 0;
