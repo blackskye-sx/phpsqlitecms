@@ -4,7 +4,6 @@
         <div class="row">
             <?php for ($n = $i; $n < $i + 2; ++$n): ?>
                 <div class="col-md-6">
-
                     <?php if (isset($included_pages[$n])): ?>
                     <div class="overview">
                         <h2 class="teaser"><a
@@ -25,9 +24,9 @@
                             <p><a class="btn btn-primary"
                                   href="<?php echo BASE_URL . $included_pages[$n]['page']; ?>"><?php echo $included_pages[$n]['link_name']; ?></a>
                             </p>
-                            <?php endif; ?>
                         </div>
                     </div>
+                    <?php endif; ?>                    
                 </div>
             <?php endfor; ?>
 
